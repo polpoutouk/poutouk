@@ -1,0 +1,34 @@
+feature,area,priority,original,clone,notes
+Artist line-up list A-Z,line-up,must,yes,no,
+Search artists by name,line-up,must,yes,no,
+Artist detail with bio photo and set times,line-up,must,yes,no,
+Schedule by day with day tabs,schedule,must,yes,no,
+Schedule grouped by stage,schedule,must,yes,no,
+Sets after midnight belong to the previous festival day,schedule,must,guess,no,check on device
+Live now / next indicator,schedule,must,guess,no,
+Favourite a set (star) without an account,favourites,must,yes,no,stored on device
+My plan: personal timetable of favourites,favourites,must,yes,no,
+Venue map with stages,map,must,yes,no,By Day and By Night maps on original
+Works offline after first load,offline,must,yes,no,PWA service worker
+Installable to home screen,platform,must,n/a,no,PWA requirement for the clone
+Admin or data file to load the programme,admin,must,yes,no,original is managed in Meetmaps back office
+Clash warning when two favourites overlap,favourites,should,guess,no,
+Reminder push before a favourite set,notifications,should,guess,no,web push; iOS needs installed PWA
+Push for last-minute changes and cancellations,notifications,should,yes,no,"""updated in real time"""
+News / updates feed,content,should,yes,no,
+Practical info pages (access hours transport FAQ),content,should,yes,no,
+Filter line-up by day stage genre,line-up,should,guess,no,
+Points of interest on the map (bars WC first aid),map,should,guess,no,
+Multilingual content,i18n,should,yes,no,original has 8 languages; start with 2-3
+Stage detail page with its sets,schedule,should,guess,no,
+Share an artist or my plan,sharing,could,guess,no,
+Add a set to the phone calendar (.ics),favourites,could,no,no,improvement idea
+Countdown before the festival,home,could,guess,no,
+Artist links to streaming and socials,line-up,could,yes,no,
+Dark mode,platform,could,guess,no,
+Sync favourites across devices with an account,favourites,could,guess,no,
+Sónar+D professional networking and meetings,networking,could,yes,skip,separate slice; Meetmaps core product
+Sónar line-up artist bios photos logo and maps,content,could,yes,skip,the festival's own content; use your event's content
+Ticket purchase and ticket wallet,ticketing,could,yes,skip,partner ticketing system; link out
+Cashless wristband top-up,payments,could,guess,skip,hardware and payment partner
+Sponsor offers and partner integrations,partners,could,guess,skip,partner deals
